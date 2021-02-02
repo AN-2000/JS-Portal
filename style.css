@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background: #02203c;
+}
+
+.container {
+  font-family: "Raleway", sans-serif;
+  background: #02203c;
+  height: 32rem;
+  width: 100vw;
+  padding: 4rem;
+}
+
+.user-input {
+  display: flex;
+  height: 100%;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.code,
+.input {
+  width: 48%;
+}
+
+.code,
+.input {
+  border-radius: 5px;
+  background: #001528;
+  color: white;
+  font-size: 1rem;
+}
+
+.header {
+  background: #15314b;
+  height: 10%;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 50%);
+  justify-content: space-between;
+  display: flex;
+}
+
+.header span {
+  display: block;
+  background: #001528;
+  font-size: 1.2rem;
+  height: 100%;
+  width: 15%;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+
+.writing-area,
+.output-area {
+  padding: 2rem;
+  outline: none;
+  overflow-y: scroll;
+  height: 90%;
+}
+
+.run {
+  background: #008529 !important;
+}
+
+.add-btn {
+  height: 3rem;
+  width: 3rem;
+  background: #008529;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
+  position: fixed;
+  bottom: 30px;
+  text-align: center;
+  right: 30px;
+  border-radius: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
