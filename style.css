@@ -67,18 +67,38 @@ html {
   background: #008529 !important;
 }
 
-.add-btn {
+.add-btn,
+.web-worker-switcher {
   height: 3rem;
   width: 3rem;
-  background: #008529;
-  font-size: 2.5rem;
   color: white;
   font-weight: 900;
   position: fixed;
-  bottom: 30px;
   text-align: center;
-  right: 30px;
   border-radius: 30px;
+}
+
+.green{
+  background: #008529;
+
+}
+
+.red{
+  background: #c0392b;
+
+}
+
+.add-btn {
+  font-size: 2.5rem;
+  right: 30px;
+  bottom: 30px;
+}
+
+.web-worker-switcher {
+  padding-top: 0.8rem;
+  font-size: 1rem;
+  right: 30px;
+  bottom: 90px;
 }
 
 /* width */
