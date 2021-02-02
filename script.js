@@ -41,3 +41,5 @@ addBtn.addEventListener("click", function () {
   });
   body.appendChild(container);
 });
+
+addBtn.click();
